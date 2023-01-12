@@ -1,12 +1,20 @@
+html {
+    -webkit-text-size-adjust: 100%;
+}
 body {
     margin-top: 0px;
-    margin-left: 20px;
-    margin-right: 25px;
+    margin-left: 30px;
+    margin-right: 35px;
     margin-bottom: 0px;
-    max-height: 50px;
+
+    max-height: 55px;
     background-color: #252525;
     color: wheat;
+    font-family: Verdana,sans-serif;
+
+    max-height: 60;
 }
+
 .box-one {
     max-height: 50;
     display: flex;
@@ -16,15 +24,24 @@ body {
     flex-wrap: nowrap;
     align-items: center;
 }
+
 .box-two {
     display: flex;
     justify-content: space-around;
     align-content: center;
     flex-wrap: nowrap;
-
-    
 }
+
 .nav-link {
-    padding-left: 2.5px;
-    padding-right: 2.5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.a-link {
+    color: wheat;
+    text-decoration: none;
+}
+.a-link:hover {
+    transition: 150ms linear;
+    color: grey;
 }
