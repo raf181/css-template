@@ -1,0 +1,30 @@
+body {
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 25px;
+    margin-bottom: 0px;
+    max-height: 50px;
+    background-color: #252525;
+    color: wheat;
+}
+.box-one {
+    max-height: 50;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.box-two {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: nowrap;
+
+    
+}
+.nav-link {
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+}
