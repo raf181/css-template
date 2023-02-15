@@ -1,0 +1,10 @@
+@import url(theme/css/testing.css);
+
+/*   warning anything imported with css will only set below here   */
+.banner-box {
+    background-image: url(theme/assets/img/Desktop_1.jpg);
+}
+.footer {
+    background: url(theme/assets/img/svg/grey_footer.svg);  
+    -o-background-size: 100%; -webkit-background-size: 100%; background-size: cover;
+}
